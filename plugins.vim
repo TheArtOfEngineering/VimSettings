@@ -1,6 +1,7 @@
 " Plugins and plugin configuration
 
 set nocompatible
+let g:platform = GetPlatform()
 filetype off
 
 " set the runtime path to include Vundle and initialize

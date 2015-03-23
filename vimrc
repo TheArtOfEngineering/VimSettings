@@ -11,7 +11,7 @@
 "Load custom settings from separate files
 source ~/.vimsettings/functions.vim " User defined functions
 source ~/.vimsettings/commands.vim  " User defined commands
-source ~/.vimsettings/settings.vim  " Vim settings
 source ~/.vimsettings/plugins.vim   " Plugins and plugins settings
+source ~/.vimsettings/settings.vim  " Vim settings
 source ~/.vimsettings/mappings.vim  " Mappings and shortcuts
 source ~/.vimsettings/color.vim     " Syntax coloring
