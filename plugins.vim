@@ -38,6 +38,9 @@ Plugin 'tpope/vim-fugitive'
 " Git Exploration plugin
 Plugin 'gregsexton/gitv'
 
+" Highlighting for json
+Plugin 'elzr/vim-json'
+
 " Diff signs in gutter for Git index/working diffs
 Plugin 'airblade/vim-gitgutter'
 let g:gitgutter_realtime = 0
