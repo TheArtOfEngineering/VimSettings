@@ -1,14 +1,14 @@
 " Mappings
 
 "Kill the arrow keys to force practice with hjkl
-"no <up> <Nop>
-"no <down> <Nop>
-"no <left> <Nop>
-"no <right> <Nop>
-"ino <up> <Nop>
-"ino <down> <Nop>
-"ino <left> <Nop>
-"ino <right> <Nop>
+no <up> <Nop>
+no <down> <Nop>
+no <left> <Nop>
+no <right> <Nop>
+ino <up> <Nop>
+ino <down> <Nop>
+ino <left> <Nop>
+ino <right> <Nop>
 
 " Map jk to ESC for easy hand-positioning
 ino jk <esc>

@@ -41,6 +41,10 @@ Plugin 'gregsexton/gitv'
 " Highlighting for json
 Plugin 'elzr/vim-json'
 
+" Syntax for JS ES6 and JSX
+Plugin 'othree/yajs.vim'
+Plugin 'mxw/vim-jsx'
+
 " Diff signs in gutter for Git index/working diffs
 Plugin 'airblade/vim-gitgutter'
 let g:gitgutter_realtime = 0
