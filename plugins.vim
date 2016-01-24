@@ -14,6 +14,9 @@ Plugin 'gmarik/Vundle.vim'
 " Undo/Redo Tree
 Plugin 'sjl/gundo.vim'
 
+" Swift highlighting
+Plugin 'toyamarinyon/vim-swift'
+
 " Smarter '.'
 Plugin 'tpope/vim-repeat'
 
