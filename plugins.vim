@@ -45,6 +45,9 @@ Plugin 'elzr/vim-json'
 Plugin 'othree/yajs.vim'
 Plugin 'mxw/vim-jsx'
 
+" Syntax for Scala
+Plugin 'derekwyatt/vim-scala'
+
 " Diff signs in gutter for Git index/working diffs
 Plugin 'airblade/vim-gitgutter'
 let g:gitgutter_realtime = 0
@@ -112,7 +115,7 @@ if g:platform == "Linux"
 endif
 
 call vundle#end()
-filetype plugin indent on
+" filetype plugin indent on
 
 " Brief help
 " :PluginList          - list configured plugins
