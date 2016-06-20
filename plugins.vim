@@ -15,7 +15,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'sjl/gundo.vim'
 
 " Swift highlighting
-Plugin 'toyamarinyon/vim-swift'
+Plugin 'keith/swift.vim'
 
 " Smarter '.'
 Plugin 'tpope/vim-repeat'
@@ -47,6 +47,7 @@ Plugin 'elzr/vim-json'
 " Syntax for JS ES6 and JSX
 Plugin 'othree/yajs.vim'
 Plugin 'mxw/vim-jsx'
+" Plugin 'isRuslan/vim-es6'
 
 " Syntax for Scala
 Plugin 'derekwyatt/vim-scala'
