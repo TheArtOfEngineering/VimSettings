@@ -87,7 +87,7 @@ set cinwords+=for,switch,case
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype yaml setlocal ts=2 sw=2 expandtab
 autocmd Filetype sql setlocal ts=2 sw=2 expandtab
-autocmd Filetype js setlocal ts=2 sw=2 expandtab
+autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 autocmd BufRead,BufNewFile *.erb setlocal ts=2 sw=2 expandtab
 "
 "" folding
