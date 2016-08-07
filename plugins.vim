@@ -49,6 +49,10 @@ Plugin 'othree/yajs.vim'
 Plugin 'mxw/vim-jsx'
 " Plugin 'isRuslan/vim-es6'
 
+" Syntax for TS
+" Plugin 'leafgarland/typescript-vim'
+Plugin 'HerringtonDarkholme/yats.vim'
+
 " Syntax for Scala
 Plugin 'derekwyatt/vim-scala'
 
@@ -94,6 +98,15 @@ Plugin 'godlygeek/csapprox'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'endel/vim-github-colorscheme'
 Plugin 'flazz/vim-colorschemes'
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " AIX-Only plugins
 if g:platform != "AIX"
