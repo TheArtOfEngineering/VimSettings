@@ -62,7 +62,7 @@ set backspace=indent,eol,start
 set showmatch
 
 "" tabs and indenting
-set tabstop=8
+set tabstop=4
 set shiftwidth=4
 set smarttab
 set softtabstop=4
@@ -88,6 +88,7 @@ autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype yaml setlocal ts=2 sw=2 expandtab
 autocmd Filetype sql setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
+autocmd Filetype json setlocal ts=2 sw=2 expandtab
 autocmd Filetype typescript setlocal ts=2 sw=2 expandtab
 autocmd BufRead,BufNewFile *.erb setlocal ts=2 sw=2 expandtab
 "
