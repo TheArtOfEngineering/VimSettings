@@ -1,6 +1,6 @@
 # VimSettings
 
-*DEPRECATED* in favor of [dotfiles](https://github.com/cloutiertyler/dotfiles)
+**DEPRECATED** in favor of [dotfiles](https://github.com/cloutiertyler/dotfiles)
 
 In order to set up your Vim. First clone this repository to your home directory. Then:
 
